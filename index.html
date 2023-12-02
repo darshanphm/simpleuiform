@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reg form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <sectio class="container">
+      <header>Registration Form</header>
+      <form action="#">
+        <div class="name">
+          <label>Full Name</label><br />
+          <input type="text" placeholder="Enter full name" required /><br />
+        </div>
+
+        <div class="email">
+          <label>Email Address</label><br />
+          <input
+            type="email"
+            placeholder="Enter email address"
+            required
+          /><br />
+        </div>
+
+        <div class="phone">
+          <label>Phone Number</label><br />
+          <input
+            type="number"
+            minlength="10"
+            maxlength="10"
+            placeholder="Enter phone number"
+          /><br />
+        </div>
+
+        <div class="birth">
+          <label>Birth Date</label><br />
+          <input type="date" required /><br />
+        </div>
+
+        <div>
+          <label>Address</label><br />
+          <input type="text" placeholder="Enter address" required /><br />
+        </div>
+
+        <select name="" id="Country" required>
+          <option hidden>Country</option>
+          <option>America</option>
+          <option>China</option>
+          <option>Japan</option>
+          <option>India</option>
+          <option>Nepal</option>
+        </select>
+
+        <input type="text" placeholder="Enter State" required />
+        <input type="text" placeholder="Enter City" required />
+
+        <!-- <label>Gender</label><br />
+        <input type="radio" name="gender" />
+        <label>Male</label>
+        <input type="radio" name="gender" />
+        <label>Female</label>
+        <input type="radio" name="gender" />
+        <label>other</label> -->
+
+        <input type="submit" onclick="" />
+      </form>
+    </sectio>
+  </body>
+</html>
